@@ -5,7 +5,7 @@ This repository contains the code, data, and analysis outputs for the bachelor's
 **"Comparing LLM-based directional stock prediction against an ARIMA baseline"**
 Yoran de Jongh — Utrecht University, Artificial Intelligence — 2026
 
-The thesis evaluates four large language models (Mistral Nemo, Qwen 2.5 7B Instruct, Gemma 2, and Claude 3.5 Haiku) against an AIC-tuned ARIMA baseline on next-day directional prediction for five S&P 500 stocks (AAPL, TSLA, XOM, MRK, MS) over a six-month window (January–August 2023).
+The thesis evaluates four large language models (Mistral Nemo, Qwen 2.5 7B Instruct, Gemma-2-27b-it, and Claude 3.5 Haiku) against an AIC-tuned ARIMA baseline on next-day directional prediction for five S&P 500 stocks (AAPL, TSLA, XOM, MRK, MS) over a six-month window (January–August 2023).
 
 ---
 
