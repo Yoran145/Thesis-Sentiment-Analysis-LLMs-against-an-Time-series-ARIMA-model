@@ -1,0 +1,11 @@
+comparison,a_only_correct,b_only_correct,statistic,p_value,test,category
+mistral vs arima,37,27,1.265625,0.26058903427361446,chi-square (continuity-corrected),LLM_vs_ARIMA
+qwen vs arima,46,34,1.5125,0.21875800453338878,chi-square (continuity-corrected),LLM_vs_ARIMA
+gemma2 vs arima,37,19,5.160714285714286,0.023103393801764092,chi-square (continuity-corrected),LLM_vs_ARIMA
+claude vs arima,43,21,6.890625,0.0086648967260251,chi-square (continuity-corrected),LLM_vs_ARIMA
+mistral vs qwen,15,17,0.03125,0.8596837951986661,chi-square (continuity-corrected),LLM_vs_LLM
+mistral vs gemma2,10,18,1.75,0.1858767323658721,chi-square (continuity-corrected),LLM_vs_LLM
+mistral vs claude,8,20,4.321428571428571,0.03763531378731436,chi-square (continuity-corrected),LLM_vs_LLM
+qwen vs gemma2,14,20,0.7352941176470589,0.3911725228101395,chi-square (continuity-corrected),LLM_vs_LLM
+qwen vs claude,11,21,2.53125,0.11161176829829161,chi-square (continuity-corrected),LLM_vs_LLM
+gemma2 vs claude,12,16,0.32142857142857145,0.5707503880581739,chi-square (continuity-corrected),LLM_vs_LLM

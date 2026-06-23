@@ -1,0 +1,137 @@
+stock_symbol,trading_day,label_date,actual_direction,n_headlines,raw_response,predicted_label,predicted_direction,confidence,reasoning
+TSLA,2023-01-01,2023-01-04,1,1,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""The headline suggests potential future growth and positive investor interest.""}```
+",UP,1,0.6,The headline suggests potential future growth and positive investor interest.
+TSLA,2023-01-02,2023-01-04,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive news about deliveries, promotions, and analyst recommendations outweigh the negative news about fines.""}```",UP,1,0.7,"Positive news about deliveries, promotions, and analyst recommendations outweigh the negative news about fines."
+TSLA,2023-01-03,2023-01-04,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest negative sentiment due to stock crash, CEO troubles, and comparison to other struggling companies.""}```",DOWN,-1,0.8,"Headlines suggest negative sentiment due to stock crash, CEO troubles, and comparison to other struggling companies."
+TSLA,2023-01-04,2023-01-04,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive analyst sentiment and potential for rebound outweigh concerns about inflation and stock price decline.""}```",UP,1,0.7,Positive analyst sentiment and potential for rebound outweigh concerns about inflation and stock price decline.
+TSLA,2023-01-05,2023-01-05,-1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Price cuts and concerns about the broader market suggest downward pressure.""}```",DOWN,-1,0.7,Price cuts and concerns about the broader market suggest downward pressure.
+TSLA,2023-01-06,2023-01-06,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.8, ""reasoning"": ""Multiple headlines suggest negative sentiment and potential price drops.""}```",DOWN,-1,0.8,Multiple headlines suggest negative sentiment and potential price drops.
+TSLA,2023-01-07,2023-01-09,1,2,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Negative sentiment from price cuts and protests suggests a potential stock decline.""}```
+",DOWN,-1,0.7,Negative sentiment from price cuts and protests suggests a potential stock decline.
+TSLA,2023-01-08,2023-01-09,1,4,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest negative sentiment and potential for continued decline in the electric vehicle sector.""}```
+",DOWN,-1,0.8,Headlines suggest negative sentiment and potential for continued decline in the electric vehicle sector.
+TSLA,2023-01-09,2023-01-09,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive sentiment due to potential for less aggressive rate hikes and mentions of undervalued stocks and a pop in price.""}
+```
+",UP,1,0.7,Headlines suggest positive sentiment due to potential for less aggressive rate hikes and mentions of undervalued stocks and a pop in price.
+TSLA,2023-01-10,2023-01-10,-1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Negative headlines outweigh positive ones, with concerns about stock performance and price cuts.""}```",DOWN,-1,0.7,"Negative headlines outweigh positive ones, with concerns about stock performance and price cuts."
+TSLA,2023-01-11,2023-01-11,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive news about the company's production expansion and potential stock growth outweighs the negative news about the lawsuit.""}```
+",UP,1,0.7,Positive news about the company's production expansion and potential stock growth outweighs the negative news about the lawsuit.
+TSLA,2023-01-12,2023-01-12,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive news about price cuts and potential for growth outweighs general market volatility and competition concerns.""}```
+",UP,1,0.7,Positive news about price cuts and potential for growth outweighs general market volatility and competition concerns.
+TSLA,2023-01-13,2023-01-13,-1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest price cuts and potential negative sentiment from recent earnings reports.""}```",DOWN,-1,0.7,Headlines suggest price cuts and potential negative sentiment from recent earnings reports.
+TSLA,2023-01-14,2023-01-17,1,4,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Headlines suggest positive investor interest and potential for growth.""}
+```
+",UP,1,0.6,Headlines suggest positive investor interest and potential for growth.
+TSLA,2023-01-15,2023-01-17,1,2,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest potential for growth and value opportunities.""}
+```
+",UP,1,0.7,Headlines suggest potential for growth and value opportunities.
+TSLA,2023-01-16,2023-01-17,1,5,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive analyst sentiment and inclusion in growth and EV lists outweigh negative news about labor concerns.""}```
+",UP,1,0.6,Positive analyst sentiment and inclusion in growth and EV lists outweigh negative news about labor concerns.
+TSLA,2023-01-17,2023-01-17,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.8, ""reasoning"": ""Negative news regarding legal issues and staged technology overshadows positive industry trends.""}```",DOWN,-1,0.8,Negative news regarding legal issues and staged technology overshadows positive industry trends.
+TSLA,2023-01-18,2023-01-18,-1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive sentiment from earnings expectations and analyst recommendations outweighs broader market concerns.""}```
+",UP,1,0.7,Positive sentiment from earnings expectations and analyst recommendations outweighs broader market concerns.
+TSLA,2023-01-19,2023-01-19,-1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive mentions of the company's stock performance and potential for growth outweigh concerns about inflation and market volatility.""}```
+",UP,1,0.7,Positive mentions of the company's stock performance and potential for growth outweigh concerns about inflation and market volatility.
+TSLA,2023-01-20,2023-01-20,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive sentiment from headlines 1, 6, and 9 outweighs negative sentiment from other headlines.""}```
+",UP,1,0.6,"Positive sentiment from headlines 1, 6, and 9 outweighs negative sentiment from other headlines."
+TSLA,2023-01-21,2023-01-23,1,4,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest positive future performance and potential for growth.""}
+```
+",UP,1,0.8,Headlines suggest positive future performance and potential for growth.
+TSLA,2023-01-22,2023-01-23,1,3,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive sentiment towards tech stocks and AI, with potential for earnings surprises.""}
+```
+",UP,1,0.7,"Headlines suggest positive sentiment towards tech stocks and AI, with potential for earnings surprises."
+TSLA,2023-01-23,2023-01-23,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest positive sentiment towards the company and the broader market.""}```",UP,1,0.8,Headlines suggest positive sentiment towards the company and the broader market.
+TSLA,2023-01-24,2023-01-24,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest potential for positive earnings and bullish sentiment from investors.""}```",UP,1,0.7,Headlines suggest potential for positive earnings and bullish sentiment from investors.
+TSLA,2023-01-25,2023-01-25,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Positive earnings reports and long-term growth expectations outweigh concerns about broader market trends.""}```",UP,1,0.8,Positive earnings reports and long-term growth expectations outweigh concerns about broader market trends.
+TSLA,2023-01-26,2023-01-26,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Positive earnings reports and strong market sentiment suggest upward movement.""}```",UP,1,0.8,Positive earnings reports and strong market sentiment suggest upward movement.
+TSLA,2023-01-27,2023-01-27,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive performance and potential for growth.""}```",UP,1,0.7,Headlines suggest positive performance and potential for growth.
+TSLA,2023-01-28,2023-01-30,-1,3,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest mixed sentiment with potential negative implications from earnings.""}```
+",DOWN,-1,0.7,Headlines suggest mixed sentiment with potential negative implications from earnings.
+TSLA,2023-01-29,2023-01-30,-1,6,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Positive sentiment from multiple sources, including mentions of sales increases and potential for growth.""}
+```
+",UP,1,0.8,"Positive sentiment from multiple sources, including mentions of sales increases and potential for growth."
+TSLA,2023-01-30,2023-01-30,-1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive sentiment from Toyota and Chinese EV growth outweighs concerns about individual stock performance.""}```",UP,1,0.7,Positive sentiment from Toyota and Chinese EV growth outweighs concerns about individual stock performance.
+TSLA,2023-01-31,2023-01-31,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive momentum and investor interest in the company's stock.""}```",UP,1,0.7,Headlines suggest positive momentum and investor interest in the company's stock.
+TSLA,2023-02-01,2023-02-01,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Negative headlines about price wars, potential stock decline, and job cuts outweigh positive sentiment about investment and potential for recovery.""}```
+",DOWN,-1,0.7,"Negative headlines about price wars, potential stock decline, and job cuts outweigh positive sentiment about investment and potential for recovery."
+TSLA,2023-02-02,2023-02-02,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive sentiment from headlines 2, 9, and 10 outweighs negative sentiment from headlines 1, 4, and 6.""}```",UP,1,0.6,"Positive sentiment from headlines 2, 9, and 10 outweighs negative sentiment from headlines 1, 4, and 6."
+TSLA,2023-02-03,2023-02-03,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Positive sentiment surrounding EV growth and a court victory outweighs concerns about layoffs and market volatility.""}```",UP,1,0.7,Positive sentiment surrounding EV growth and a court victory outweighs concerns about layoffs and market volatility.
+TSLA,2023-02-04,2023-02-06,1,3,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Price increases often lead to negative market sentiment.""}
+```",DOWN,-1,0.7,Price increases often lead to negative market sentiment.
+TSLA,2023-02-05,2023-02-06,1,2,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest positive sentiment and potential for growth.""}
+```
+",UP,1,0.8,Headlines suggest positive sentiment and potential for growth.
+TSLA,2023-02-06,2023-02-06,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Headlines indicate concerns about the Fed and a general downward trend in the market.""}```",DOWN,-1,0.7,Headlines indicate concerns about the Fed and a general downward trend in the market.
+TSLA,2023-02-07,2023-02-07,1,8,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Headlines suggest positive sentiment towards the battery and electric vehicle industries, which may benefit the company.""}```
+",UP,1,0.6,"Headlines suggest positive sentiment towards the battery and electric vehicle industries, which may benefit the company."
+TSLA,2023-02-08,2023-02-08,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.9, ""reasoning"": ""Headlines overwhelmingly suggest positive growth and investment in the company.""}```",UP,1,0.9,Headlines overwhelmingly suggest positive growth and investment in the company.
+TSLA,2023-02-09,2023-02-09,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive earnings, price increases, and strong performance compared to competitors.""}```",UP,1,0.7,"Headlines suggest positive earnings, price increases, and strong performance compared to competitors."
+TSLA,2023-02-10,2023-02-10,-1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Multiple headlines indicate negative sentiment due to a dour profit outlook and falling stock prices.""}```",DOWN,-1,0.7,Multiple headlines indicate negative sentiment due to a dour profit outlook and falling stock prices.
+TSLA,2023-02-11,2023-02-13,-1,3,"```json
+{""direction"": ""UP"", ""confidence"": 0.7, ""reasoning"": ""Headlines suggest positive performance and potential for further growth.""}
+```
+",UP,1,0.7,Headlines suggest positive performance and potential for further growth.
+TSLA,2023-02-12,2023-02-13,-1,3,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest strong buy signals and positive market sentiment.""}
+```
+",UP,1,0.8,Headlines suggest strong buy signals and positive market sentiment.
+TSLA,2023-02-13,2023-02-13,-1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive mentions of investor interest, outperformance, and potential for winning in the EV market outweigh concerns about losing the war.""}
+```",UP,1,0.6,"Positive mentions of investor interest, outperformance, and potential for winning in the EV market outweigh concerns about losing the war."
+TSLA,2023-02-14,2023-02-14,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive news about earnings, potential for continued growth, and CEO confidence outweigh concerns about inflation and market volatility.""}```
+",UP,1,0.6,"Positive news about earnings, potential for continued growth, and CEO confidence outweigh concerns about inflation and market volatility."
+TSLA,2023-02-15,2023-02-15,1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.8, ""reasoning"": ""Headlines suggest strong sales, expansion, and positive market sentiment.""}```",UP,1,0.8,"Headlines suggest strong sales, expansion, and positive market sentiment."
+TSLA,2023-02-16,2023-02-16,-1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Negative news about layoffs, vehicle recalls, and concerns about interest rate hikes outweigh positive mentions in sector updates and stock comparisons.""}```",DOWN,-1,0.7,"Negative news about layoffs, vehicle recalls, and concerns about interest rate hikes outweigh positive mentions in sector updates and stock comparisons."
+TSLA,2023-02-17,2023-02-17,1,10,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.6, ""reasoning"": ""Headlines suggest mixed sentiment with some negative indicators like competition and potential production issues.""}```",DOWN,-1,0.6,Headlines suggest mixed sentiment with some negative indicators like competition and potential production issues.
+TSLA,2023-02-18,2023-02-21,-1,6,"```json
+{""direction"": ""DOWN"", ""confidence"": 0.7, ""reasoning"": ""Negative news about a fatal accident involving the company's product is likely to impact investor sentiment.""}
+```
+",DOWN,-1,0.7,Negative news about a fatal accident involving the company's product is likely to impact investor sentiment.
+TSLA,2023-02-20,2023-02-21,-1,10,"```json
+{""direction"": ""UP"", ""confidence"": 0.6, ""reasoning"": ""Positive news about partnerships, expansion, and potential for growth outweighs negative news about regulatory scrutiny and market conditions.""}```
+",UP,1,0.6,"Positive news about partnerships, expansion, and potential for growth outweighs negative news about regulatory scrutiny and market conditions."
