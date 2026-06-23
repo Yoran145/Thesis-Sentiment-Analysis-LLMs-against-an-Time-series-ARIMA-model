@@ -15,9 +15,6 @@ A two-stage experimental design is used:
 
 - **Stage 1** validates each LLM's competence as a financial sentiment classifier on the Financial PhraseBank (Malo et al., 2014).
 - **Stage 2** measures directional next-day prediction accuracy on 954 anonymized headline records from the FNSPID dataset, with statistical significance assessed via McNemar's test and uncertainty quantified via bootstrap 95% confidence intervals. A simulated trading-strategy backtest reports Sharpe ratios for each model.
-
-The full thesis document is available in `/thesis/Thesis_de_Jongh.pdf`.
-
 ---
 
 ## Repository structure
