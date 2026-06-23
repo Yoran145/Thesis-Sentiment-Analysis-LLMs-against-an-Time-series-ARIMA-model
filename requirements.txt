@@ -1,0 +1,8 @@
+pandas
+numpy
+pyarrow
+yfinance
+statsmodels
+scikit-learn
+requests
+python-dotenv

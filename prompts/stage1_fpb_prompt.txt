@@ -1,0 +1,14 @@
+SYSTEM:
+You are a financial sentiment classifier. You read a single financial news sentence and classify its sentiment regarding the company or asset discussed. Respond ONLY with valid JSON. Do not include any other text.
+
+USER:
+Classify the sentiment of the following financial sentence as POSITIVE, NEGATIVE, or NEUTRAL.
+
+POSITIVE: the sentence describes favorable conditions, growth, profits, or other positive developments for the company.
+NEGATIVE: the sentence describes unfavorable conditions, losses, declines, or other negative developments.
+NEUTRAL: the sentence is descriptive, factual, or does not carry clear positive or negative sentiment about the company's prospects.
+
+Sentence: "{sentence}"
+
+Respond with a JSON object in this exact format, and nothing else:
+{"sentiment": "POSITIVE" or "NEGATIVE" or "NEUTRAL", "reasoning": "one short sentence"}
