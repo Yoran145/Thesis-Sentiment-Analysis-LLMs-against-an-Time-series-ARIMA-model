@@ -158,7 +158,7 @@ for name, preds in all_models.items():
     bal_ci = (np.percentile(bals, 2.5), np.percentile(bals, 97.5))
     f1_ci  = (np.percentile(f1s,  2.5), np.percentile(f1s,  97.5))
     print(f"{name:<10} {bal_point:>9.3f} [{bal_ci[0]:.3f}, {bal_ci[1]:.3f}]    "
-          f"{f1_point:>10.3f} [{f1_ci[0]:.3f}, {f1_ci[1]:.3f}]")
+      f"{f1_point:>10.4f} [{f1_ci[0]:.4f}, {f1_ci[1]:.4f}]")
     boot_rows.append({
         "model": name,
         "bal_acc": bal_point, "bal_acc_lo": bal_ci[0], "bal_acc_hi": bal_ci[1],
